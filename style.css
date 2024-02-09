@@ -10,7 +10,7 @@ input, button {
 }
 
 #eventList div {
-    margin: 20px;
+    margin-top: 20px;
     padding: 10px;
     background-color: grey;
     border: 1px solid black;
@@ -18,4 +18,12 @@ input, button {
 
 button {
     cursor: pointer;
+}
+
+[contenteditable="true"] {
+    border: 1px solid black !important;
+    padding: 5px !important;
+    background-color: white !important;
+    display: inline-block !important;
+    min-width: 100px !important;
 }
